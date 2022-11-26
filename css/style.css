@@ -1,0 +1,100 @@
+html, body{
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  color:#424551;
+}
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container{
+  max-width: 1230px ;
+  padding:0 15px;
+  margin: 0 auto;
+}
+.button{
+letter-spacing: 0.5px;
+line-height: 52px;
+font-weight: 700;
+padding:0 40px;
+color: #fff;
+border-radius: 4px;
+background: linear-gradient(#FF3F3A 100%, #F75E05 100%);
+white-space: nowrap;
+}
+
+.logo {
+}
+
+
+/* --------------- */
+
+.header{
+  font-weight: 700;
+  color:#424551;
+}
+.header__top {
+
+}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 20px 0;
+}
+.header__logo {
+  margin-right: 60px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+.header__nav-list {
+  display: flex;
+  
+}
+.header__nav-item {
+  margin-right: 40px;
+}
+.header__nav-item:last-child{
+  margin-right: 0;
+}
+.header__nav-link {
+  /* font-weight: 700;
+  line-height: 160%;
+  color: #424551; */
+  white-space: nowrap;
+  line-height: 1.6;
+}
+.header__btn-box {
+  display: flex;
+  align-items: center;
+  
+}
+.header__top-btn {
+  white-space: nowrap;
+  margin-right: 36px;
+}
+.header_user-nav{
+  position: relative;
+  padding-left: 28px;
+}
+.header_user-nav::before {
+  content: "";
+  display: block;
+  position:absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50);
+  background: url("../images/icons/user-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+
+}
+.header__user-btn {
+  white-space: nowrap;
+  line-height: 1.6;
+}
