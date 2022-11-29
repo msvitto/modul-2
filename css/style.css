@@ -24,7 +24,9 @@ border-radius: 4px;
 background: linear-gradient(#FF3F3A 100%, #F75E05 100%);
 white-space: nowrap;
 }
-
+.button:hover{
+  transform: scale(1.1);
+}
 .logo {
 }
 
@@ -69,6 +71,9 @@ white-space: nowrap;
   white-space: nowrap;
   line-height: 1.6;
 }
+  .header__nav-link:hover{
+    color: red;
+}
 .header__btn-box {
   display: flex;
   align-items: center;
@@ -97,4 +102,7 @@ white-space: nowrap;
 .header__user-btn {
   white-space: nowrap;
   line-height: 1.6;
+}
+.header__user-btn:hover{
+  color: #FF3F3A;
 }
